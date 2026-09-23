@@ -405,7 +405,7 @@ function buildTodayGCChatTable(dateStr, sessions) {
 }
 
 function sendGCChatMessage(message) {
-  const webhookUrl = 'https://chat.googleapis.com/v1/spaces/AAAA5K1evY4/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=9WmdjSpf2vffvA_WR_RTaBK4rOHi1L-94p0kQf7k9fU';
+  const webhookUrl = 'WebhookUrl;
   UrlFetchApp.fetch(webhookUrl, {
     method: 'post',
     contentType: 'application/json',
